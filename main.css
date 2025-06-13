@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+  
+#drawCanvas,
+#flipbookCanvas {
+    border: 1px solid black;
+    touch-action: none;
+    max-width: 100vw;
+    width: 90vw;
+    height: 60vh;
+    display: block;
+    margin: 10px auto;
+}
+
+.gallery img {
+    width: 80px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+  
